@@ -1,0 +1,113 @@
+.all{
+    width: 70%;
+    margin: auto;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+box-sizing: border-box;
+}
+.img1:hover{
+    border: 3px solid blue;
+}
+.body{
+    border-radius: 25px;
+    display: flex;
+}
+.first{
+    justify-content: center;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 300px;
+    height: auto;
+    background-color: aqua;
+    
+}
+.first .param{
+    color: black;
+    font-size: 25px;
+    text-decoration: underline red;
+}
+.param:hover{
+    color: yellow;
+}
+.second{
+    background-color: rgb(200, 84, 200);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+.third{
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 300px;
+    height: auto;
+    background-color: greenyellow;
+}
+.p{
+    position: relative;
+}
+.tik1::after, .tik2::after, .tik4::after, .tik5::after, .tik6::after {
+    content: "✅";
+  }
+  .p1::after {
+    content: "✅";
+  }
+  .p2::after {
+    content: "✅";
+  }  .p3::after {
+    content: "✅";
+  }
+.p1:hover, .p2:hover,.p3:hover, .p4:hover, .p5:hover, .p6:hover {
+    text-decoration:3px underline red;
+  }
+.tik1:hover, .tik2:hover,.tik3:hover, .tik4:hover, .tik5:hover, .tik6:hover {
+    text-decoration: 3px underline green;
+  }
+  .name{
+    font-size: larger;
+  }
+  .name:hover{
+    color: red;
+  }
+.p1::before{
+    content: url("./images/html5-brands-solid\ \(3\).svg");
+}
+.p2::before{
+  content: url("./images/css3-alt-brands-solid.svg");
+}
+.p3::before{
+  content: url("./images/js-brands-solid\ \(1\).svg");
+}
+.p4::before{
+  content: url("./images/code-solid.svg");
+}
+.p5::before{
+  content: url("./images/react-brands-solid.svg");
+}
+.p6::before{
+  content: url("./images/node-js-brands-solid.svg");
+}
+.tik1::before{
+  content: url("./images/telegram-brands-solid.svg");
+}
+.tik2::before{
+  content: url("./images/instagram-brands-solid.svg");
+}
+.tik3::before{
+  content: url("./images/tiktok-brands-solid.svg");
+}
+.tik4::before{
+  content: url("./images/twitter-brands-solid.svg");
+}
+.tik5::before{
+  content: url("./images/linkedin-brands-solid.svg");
+}
+.tik6::before{
+  content: url("./images/youtube-brands-solid.svg");
+}
